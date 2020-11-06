@@ -10,7 +10,7 @@ import java.io.Serializable;
  * @date: 2020/9/17 13:19
  */
 @Data
-public class ResposeResult<T> implements Serializable {
+public class ResponseResult<T> implements Serializable {
 
     private Integer code;//错误码(自己定义)
 
